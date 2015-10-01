@@ -1,0 +1,11 @@
+-lib flixel
+-lib openfl
+-cp source
+-cp export/flash/haxe
+-D tools=1.2.9
+-D FLX_NO_DEBUG
+-D display
+-D web
+-main ApplicationMain
+--no-output
+-swf-version 11.2

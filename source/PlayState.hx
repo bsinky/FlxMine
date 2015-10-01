@@ -86,7 +86,7 @@ class PlayState extends FlxState
 		add(statusText);
 		
 		// Use timer to count seconds (0 = loops forever)
-		timer = FlxTimer.start(1, onTimer, 0);
+		timer = new FlxTimer(1, onTimer, 0);
 		
 		var newGameBtn:FlxButton = new FlxButton(0, 0, "New Game", newGame);
 		add(newGameBtn);
